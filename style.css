@@ -16,6 +16,7 @@ body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 header{
+    padding-top:30px;
     display:flex;
     justify-content:space-between;
     margin-left:80px;
@@ -153,8 +154,10 @@ div h3{
 }
 .getting-started{
     margin-top:40px;
+    margin-left:20px;
+    gap:10px;
     display:grid;
-    grid-template-columns: 420px 420px 420px;
+    grid-template-columns: 400px 400px 400px;
     justify-content:center;
     
 }
@@ -174,26 +177,31 @@ div h3{
     line-height:17px;
 }
 .publications{
-    margin-top:180px;
-    margin-left:170px;
+    padding-left:40px;
 }
 .publications p{
     font-size:12px;
+    padding-top:60px;
 }
 .publications h2{
     font-size:29px;
-margin-bottom:5px;
+    margin-bottom:5px;
 }
-.publications button{
+.pub-hub{
+    display:flex;
+    justify-content:space-between;
+    gap:800px;
+    padding-top:100px;
+}
+.pub-hub button{
     background-color:skyblue;
     color:blue;
-    position:relative;
-    left:1140px;
-    top:-60px;
+    cursor:pointer;
     font-size:15px;
     padding:15px 20px;
     border-radius:7px;
     border:white;
+    margin-right:0px;
 }
 .last-main{
     margin-top: 90px;
@@ -243,55 +251,51 @@ margin-bottom:5px;
     color:white;
 }
 footer{
-    justify-content:center;
+    display:flex;
+    padding-top:150px;
+    padding-bottom:100px;
 }
 .quicklink{
-    margin-top:100px;
     display:flex;
-    margin-right:570px;
+    flex-direction:column;
 }
 .logo{
     width:190px;
 }
-.quicklink p{
+.quick-p{
     font-size:30px;
     width:150px;
-    margin-left:230px;
 }
 .black1{
     width:80px;
-    margin-right:20px;
-    margin-left:160px;
+    margin-left:50px;
+    
 }
 .black2{
     width:150px;
     height:45px;
     margin-top:40px;
+    margin-left:20px;
 }
-footer ul{
-    text-align:center; 
-    width:400px; 
-    position:relative;
-    top:-70px;
-    left:110px;
+.center-footer{
+    text-align:left;
+}
+.center-footer ul{ 
+    width:190px; 
     font-size:20px;
     color:grey;
-    text-align:left;
-  
+    padding-top:30px; 
 }
 footer ul li{
     margin-bottom:30px;
-   
 }
 .email-address{
-   position:relative;
-   left:450px;
-   bottom:260px;
     background-color: #E6F2FF;
     border-radius:3px;
     width:290px;
     height:190px;
     padding:30px 30px;
+    margin-top:100px;
 }
 .email-address input{
     margin-bottom:28px;
